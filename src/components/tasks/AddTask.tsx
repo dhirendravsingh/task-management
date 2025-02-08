@@ -2,7 +2,6 @@ import React from 'react'
 import Form from '../form/Form';
 import Input from '../input/Input';
 import Button from '../button/Button';
-import { addTask } from '@/actions';
 import * as actions from '@/actions';
 const AddTask = () => {
   return (
