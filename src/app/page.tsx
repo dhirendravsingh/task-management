@@ -30,7 +30,7 @@ export default async function Home() {
       <div className="flex flex-col gap-5 items-center justify-center mt-10 w-screen">
         {tasks.map((task, index)=>(
           <div key={index} className="w-full">
-          <Task task={task} key={task.id}/>
+          <Task task={task} key={index}/>
           </div>
         ))}
       </div>
