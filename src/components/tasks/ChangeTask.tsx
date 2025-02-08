@@ -7,7 +7,7 @@ import { FaCheck } from 'react-icons/fa';
 
 export interface TaskProps{
     id: string;
-    title?: string;
+    title?: string | null;
     isCompleted: boolean;
     createdAt?: Date;
 }
