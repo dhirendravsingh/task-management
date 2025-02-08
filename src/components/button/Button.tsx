@@ -9,7 +9,7 @@ interface ButtonProps {
   bgColor?: string;
 }
 
-const Button = ({type, text, onClick, actionButton, bgColor, ...props}: ButtonProps) => {
+const Button = ({type, text, onClick, actionButton, bgColor}: ButtonProps) => {
   return (
     <div>
       <button type={type} onClick={onClick} 

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import AddTask from "@/components/tasks/AddTask";
 import prisma from "@/utils/prisma";
 import Task from "@/components/tasks/Task";
