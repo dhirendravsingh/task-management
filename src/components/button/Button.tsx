@@ -14,8 +14,8 @@ const Button = ({type, text, onClick, actionButton, bgColor, ...props}: ButtonPr
     <div>
       <button type={type} onClick={onClick} 
       className={clsx(
-        actionButton && "text-white hover:bg-blue-800 focus-ring-4 font-medium founded-lg  text-sm px-5 py-2.5 me-2",
-        `${bgColor} hover:${bgColor} font-medium founded-lg text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none`,
+        actionButton && "text-white hover:bg-blue-800 focus-ring-4 font-medium rounded-lg  text-sm px-5 py-2.5 me-2",
+        `${bgColor} hover:${bgColor} font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none`,
       )}>{text}</button>
     </div>
   )
